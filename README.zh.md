@@ -1,13 +1,15 @@
+
 # TP
-English | [中文](./README.zh.md)
-A distributed task manager that relies on redis, currently the initial version.
-## INSTALL
+
+[English](./README.md) | 中文
+依赖于redis的分布式任务管理器，目前是初始版本。
+## 安装
 ```bash
-go get github.com/0x2d3c/tp
+go get -u github.com/0x2d3c/tp
 ```
-## Support
-1. Consumption and cancellation of a single acyclic task
-### Example
+## 支持
+1.支持单个非循环任务的消费以及撤销
+### 例子
 ```go
 package main
 
